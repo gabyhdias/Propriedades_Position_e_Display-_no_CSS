@@ -1,13 +1,10 @@
-.body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(148, 111, 182);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.quadrado {
-    background-color: rgb(155, 107, 201);
+#navbar {
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
     display: flex;
-    justify-content: center;
-    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
