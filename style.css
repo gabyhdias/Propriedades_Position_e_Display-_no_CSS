@@ -40,3 +40,27 @@
     padding: 20px;
     margin: 30px;
 }
+
+.inline-flex {
+    display: inline-flex;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.grid {
+    display: grid;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.inline-grid {
+    display: inline-grid;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
