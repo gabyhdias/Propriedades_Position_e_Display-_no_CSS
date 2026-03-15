@@ -13,7 +13,7 @@
     display: block;
     background-color: rgba(189, 128, 247, 0.849);
     color: rgb(255, 254, 255);
-    padding: 10px;
+    padding: 20px;
     margin: 20px 0;
 }
 
@@ -22,7 +22,7 @@
     background-color: rgba(189, 128, 247, 0.849);
     color: rgb(255, 254, 255);
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .inline-block {
@@ -30,7 +30,7 @@
     background-color: rgba(189, 128, 247, 0.849);
     color: rgb(255, 254, 255);
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .flex {
@@ -38,7 +38,7 @@
     background-color: rgba(189, 128, 247, 0.849);
     color: rgb(255, 254, 255);
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .inline-flex {
@@ -88,3 +88,60 @@
     padding: 20px;
     margin: 20px;
 }
+
+.block.flex {
+    display: block;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.block.grid {
+    display: block;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.block.flow-root {
+    display: block;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.inline.flow {
+    display: inline;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.inline.flex {
+    display: inline;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.inline.grid {
+    display: inline;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.inline.flow-root {
+    display: inline;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
