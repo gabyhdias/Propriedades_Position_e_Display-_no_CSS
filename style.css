@@ -32,3 +32,11 @@
     padding: 20px;
     margin: 30px;
 }
+
+.flex {
+    display: flex;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 30px;
+}
