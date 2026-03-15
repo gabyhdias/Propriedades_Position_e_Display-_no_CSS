@@ -175,6 +175,7 @@
     color: rgb(255, 254, 255);
     padding: 20px;
     margin: 20px;
+    align-items: center;
 }
 
 .sticky {
