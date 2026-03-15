@@ -64,3 +64,27 @@
     padding: 20px;
     margin: 20px;
 }
+
+.flow-root {
+    display: flow-root;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.table {
+    display: table;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.block.flow {
+    display: block;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 20px;
+}
