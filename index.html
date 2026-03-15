@@ -14,43 +14,70 @@
 
         <section id="noticia"> 
 
-            <div class="noticia">
+            <div class="display">
                 <h4> Display </h4>
-                <p> display-outside </p>
                 <p> Essas palavras-chave especificam o tipo de exibição externa do elemento, que é essencialmente sua função no layout de fluxo. </p>
             </div>
-                    <h4> Block </h4>
-                    <p> O elemento gera uma caixa de elemento de bloco, gerando quebras de linha antes e depois do elemento quando no fluxo normal. </p>
-                    <h4> Inline </h4>
-                    <p> O elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas. No fluxo normal, o próximo elemento estará na mesma linha se houver espaço.</p>
-                    <h4> display-inside </h4>
-                    <p> Estas palavras-chave especificam o tipo de exibição interna do elemento, que define o tipo de contexto de formatação em que seu conteúdo é apresentado (supondo que seja um elemento não substituído).</p>
-                    <h4> Experimental </h4>
-                    <p> O elemento apresenta seu conteúdo usando o layout de fluxo (layout de bloco e linha).</p>
-                    <p> Se seu tipo de exibição externa for inline ou run-in, e estiver participando de um bloco ou contexto de formatação inline, ele gerará uma caixa inline. Caso contrário, gera uma caixa de contêiner de bloco.
-            Dependendo do valor de outras propriedades (como position, float ou overflow) e se ele próprio está participando em um contexto de formatação em bloco ou em linha, ele estabelece um novo contexto de formatação de bloco (BFC) para seu conteúdo ou integra seu conteúdo em seu contexto de formatação pai.</p>
-                    <h4> flow-root</h4>
-                    <p> O elemento gera uma caixa de elemento de bloco que estabelece um novo contexto de formatação de bloco, definindo onde está a raiz de formatação.</p>
-                    <h4> table </h4>
-                    <p> Esses elementos se comportam como elementos HTML <table>. Ele define uma caixa de nível de bloco. </p>
-                    <h4> flex </h4>
-                    <p> O elemento se comporta como um elemento de bloco e apresenta seu conteúdo de acordo com o modelo flexbox. </p>
+
+            <div class="block">
+                <h4> block </h4>
+                <p></p>
+            </div>
+
+            <div class="inline">
+                <h4> inline </h4>
+                <p></p>
+            </div>
+
+            <div class="inline-block">
+                <h4> inline-block</h4>
+                <p></p>
+            </div>
+
+            <div class="flex">
+                <h4> flex </h4>
+                <p></p>
+            </div>
+
+            <div class="inline-flex">
+                    <h4> inline-flex </h4>
+                    <p></p>
+            </div>
+
+            <div class="grid">
                     <h4> grid </h4>
-                    <p> O elemento se comporta como um elemento de bloco e apresenta seu conteúdo de acordo com o modelo de grade. </p>
-                    <h4> ruby </h4>
-                    <p> O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo de formatação ruby. Ele se comporta como os elementos HTML <ruby> correspondentes.</p>
-                    <h4> display-listitem </h4>
-                    <p> O elemento gera uma caixa de bloco para o conteúdo e uma caixa inline de item de lista separada. </p>
-                    <p> Um único valor de list-item fará com que o elemento se comporte como um item de lista. Isso pode ser usado junto com list-style-type e list-style-position.
-            list-item também pode ser combinado com qualquer palavra-chave <display-outside> e flow ou flow-root <display-inside> palavras-chave. </p>
-                    <h4> display-internal </h4>
+                    <p></p>
+            </div>
+
+            <div class="inline-grid">
+                    <h4> inline-grid </h4>
+                    <p></p>
+            </div>
+
+            <div class="flow-root">
+                    <h4> flow-root </h4>
+                    <p></p>
+            </div>
+            <div class="table">
+                <h4> table </h4>
+                <p></p>
+            </div>
+
+            <div class="block flow">
+                <h4> block flow </h4>
+                <p></p>
+
+                    <h4> block flex </h4>
                     <p> Alguns modelos de layout como table e ruby possuem uma estrutura interna complexa, com vários papéis diferentes que seus filhos e descendentes podem preencher. Esta seção define os valores de exibição "internos", que só têm significado dentro desse modo de layout específico.</p>
-                    <h4> table-row-group </h4>
+                    <h4> block grid </h4>
                     <p> Esses elementos se comportam como tbody elementos HTML.</p>
-                    <h4> table-header-group </h4>
+                    <h4> block flow-root </h4>
                     <p> Esses elementos se comportam como <thead> elementos HTML. </p>
-                    <h4> table-footer-group </h4>
+                    <h4> inline flow </h4>
                     <p> Esses elementos se comportam como <tfoot> elementos HTML. </p>
+                    <h4> inline flex </h4>
+                    <h4> inline grid </h4>]
+                    <h4> inline flow-root </h4>
         </section>
 
     </header>
