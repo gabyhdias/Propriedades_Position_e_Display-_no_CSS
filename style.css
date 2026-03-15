@@ -9,20 +9,26 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#noticias {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 6px;
-    
+.block {
+    display: block;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 10px;
+    margin: 20px 0;
 }
 
-.noticia{
-    background-color: rgb(231, 156, 209);
-    color: rgb(255, 255, 255);
+.inline {
+    display: inline;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 30px;
 }
 
-.noticia{
-    width: 200px;
-    height: 200px;
+.inline-block {
+    display: inline-block;
+    background-color: rgba(189, 128, 247, 0.849);
+    color: rgb(255, 254, 255);
+    padding: 20px;
+    margin: 30px;
 }
