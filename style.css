@@ -1,187 +1,173 @@
-
-#navbar {
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
+.titulo{
+    background-color: rgb(189, 9, 93);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+}
+
+.elementos{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    width: 950px;
     padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);  
+    flex-wrap: wrap;
 }
 
-.block {
-    display: block;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px 0;
+.textos {
+text-align: left;
 }
 
-.inline {
-    display: inline;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.subtitulo {
+    text-align: center;
 }
 
-.inline-block {
-    display: inline-block;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
+.quadrado{
+    height: 20px;
+    width: 20px;
+    color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
+     background-color: rgb(196, 71, 129);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.flex {
+.rosa{
+    background-color: rgb(196, 71, 129);
+}
+
+
+.block{
+    background-color: rgb(196, 71, 129);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.inline{
+    display: inline flow-root;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex{
     display: flex;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.inline-flex {
+.inlineflex{
     display: inline-flex;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.grid {
+.inlineblock{
+    display: inline-block;
+    background-color: rgb(201, 165, 182);
+    margin: 10px;
+    padding: 10px;
+}
+
+.grid{
     display: grid;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.inline-grid {
+.inlinegrid{
     display: inline-grid;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.flow-root {
+.blockflow{
     display: flow-root;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.table {
+.table{
     display: table;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.block.flow {
-    display: block;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.blockflex{
+    display: block flex;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.block.flex {
-    display: block;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.blockgrid{
+    display: block grid;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.block.grid {
-    display: block;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.blockflow-root{
+    display: block flow-root;
+    background-color: rgb(201, 165, 182);
+    margin: 10px;
 }
 
-.block.flow-root {
-    display: block;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.inlineflex2{
+    display: inline flex;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.inline.flow {
-    display: inline;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.inlinegrid2{
+    display: inline grid;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.inline.flex {
-    display: inline;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+
+.inlineflow-root{
+    display: inline flow-root;
+    background-color: rgb(201, 165, 182);
+    padding: 10px;
+    margin: 10px;
 }
 
-.inline.grid {
-    display: inline;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
+.flow-root{
+    display: flow-root;
+    background-color: rgb(201, 165, 182);
+    padding: 7px;
+    margin: 7px;
 }
 
-.inline.flow-root {
-    display: inline;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
+.item{
+    background-color: rgb(196, 71, 129);
+    color: white;
+    margin: 10px;
     padding: 20px;
-    margin: 20px;
 }
 
-.static {
-    position: static;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
-}
+.grid-bloco {
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+  }
 
-.relative {
-    position: relative;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
-}
-
-.absolute {
-    position: absolute;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
-}
-
-.fixed {
-    position: fixed;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
-    align-items: center;
-}
-
-.sticky {
-    position: sticky;
-    background-color: rgba(189, 128, 247, 0.849);
-    color: rgb(255, 254, 255);
-    padding: 20px;
-    margin: 20px;
-}
+  .grid-inline {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 40px);
+    vertical-align: middle;
+  }

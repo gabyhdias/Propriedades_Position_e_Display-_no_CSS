@@ -2,206 +2,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Propriedades Position e Display no CSS</title>
-     <link rel="stylesheet" href="style.css">
+    <title>Propiedades Position e Display no CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+   
     <header>
-        <div id="navbar"> 
-            <h2> Propriedades Position e Display no CSS </h2>
-        </div>
-
-        <section id="noticia"> 
-
-            <div class="display">
-                <h2> Display </h2>
-                <p> Essas palavras-chave especificam o tipo de exibição externa do elemento, que é essencialmente sua função no layout de fluxo. </p>
-            </div>
-
-            <h4> block </h4>
-            <p>O elemento gera uma caixa de elemento de bloco, gerando quebras de linha antes e depois do elemento quando no fluxo normal.
-</p>
-            <div class="block">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> inline </h4>
-            <p>O elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas. 
-</p>
-            <div class="inline">
-                <div class="1"></div>
-            </div>
-
-            <h4> inline-block</h4>
-            <p>O elemento gera uma caixa de elemento de bloco que fluirá com o conteúdo ao redor como se fosse uma única caixa em linha.
-</p>
-            <div class="inline-block">
-                <div class="1"></div>
-            </div>
-
-            <h4> flex </h4>
-            <p> O elemento se comporta como um elemento de bloco e apresenta seu conteúdo de acordo com o modelo flexbox.
-</p>
-            <div class="flex">
-                <div class="1"></div>
-            </div>
-
-            <h4> inline-flex </h4>
-            <p>O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo flexbox.
-</p>
-            <div class="inline-flex">
-                <div class="1"></div>
-            </div>
-
-            <h4> grid </h4>
-            <p>O elemento se comporta como um elemento de bloco e apresenta seu conteúdo de acordo com o modelo de grade.
-</p>
-            <div class="grid">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> inline-grid </h4>
-            <p>O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo de grade.
-</p>
-            <div class="inline-grid">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> flow-root </h4>
-            <p>O elemento gera uma caixa de elemento de bloco que estabelece um novo contexto de formatação de bloco, definindo onde está a raiz de formatação.
-</p>
-            <div class="flow-root">
-                <div class="1"></div>
-            </div>
-
-            <h4> table </h4>
-            <p> Esses elementos se comportam como elementos HTML table. Ele define uma caixa de nível de bloco.
-</p>
-            <div class="table">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> block flow </h4>
-            <p>O elemento ocupa toda a largura disponível, quebra linha antes e depois, e seus filhos se comportam no fluxo normal de documento .
-</p>
-            <div class="block flow">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> block flex </h4>
-            <p>Define o contêiner como um bloco, mas ativa o Flexbox para os elementos filhos. Os filhos são alinhados em uma linha ou coluna, permitindo fácil alinhamento, distribuição de espaço e responsividade com justify-content e align-items.
-</p>
-            <div class="block flex">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> block grid </h4>
-            <p>Define o contêiner como um bloco, mas ativa o modelo de layout Grid para os filhos. É bidimensional, permitindo organizar elementos em linhas e colunas simultaneamente, oferecendo controle preciso sobre o posicionamento.
-</p>
-            <div class="block grid">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> block flow-root </h4>
-            <p>Cria uma caixa de bloco, mas, diferentemente do block comum, ele estabelece um novo contexto de formatação de bloco.
-</p>
-            <div class="block flow-root">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> inline flow </h4>
-            <p>O elemento flui como texto, quebra em várias linhas se necessário e ignora width/height.
-</p>
-            <div class="inline flow">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> inline flex </h4>
-            <p>O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo flexbox.
-</p>
-            <div class="inline flex">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-            <h4> inline grid </h4>
-            <p>O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo de grade.
-</p>
-            <div class="inline grid">
-                <div class="1"></div>
-                <div class="2"></div>
-            </div>
-
-            <h4> inline flow-root </h4>
-            <p>Funciona como um bloco na mesma linha, aceitando dimensões e margens normalmente. 
-</p>
-            <div class="inline flow-root">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
-            </div>
-
-
-            <div class="Position"></div>
-            <h2> Position </h2>
-                <p>A propriedade position do CSS é um recurso que permite organizar os elementos HTML dentro de uma página.</p>
-            </div>
-
-           
-             <h4>Static</h4>
-            <p>A posição padrão de todos os elementos HTML é a static. Ela é utilizada quando não é necessário alterar o posicionamento do elemento, deixando que ele apareça na mesma ordem em que está inserido no código.
-</p>
-            <div class="static">
-            </div>
-
-            <h4>Relative</h4>
-            <p>Ao utilizar o valor relative, é possível reposicionar o componente utilizando os padrões top, button, left e right, sem que esse elemento perca o seu espaço original no layout da página.
-</p>
-            <div class="relative">
-            </div>
-
-            <h4>Absolute</h4>
-            <p>Um elemento com a configuração position: absolute não faz parte do fluxo normal da página, por isso, ele não tem um espaço próprio no layout e todas as outras estruturas se comportam como se ele não existisse. 
-</p>
-            <div class="absolute">
-            </div>
-
-            <h4>Fixed </h4>
-            <p>O valor fixed tem o objetivo de fixar um elemento em um ponto específico da página, permanecendo sempre da mesma forma, não sendo afetado pela barra de rolagem.  Além disso, ele também faz com que o item seja completamente removido do fluxo da página.
-</p>
-            <div class="fixed ">
-            </div>
-
-            <h4>Sticky </h4>
-            <p>Esse valor combina os comportamentos do relative e do fixed. Isso significa que o elemento com o position: sticky segue o fluxo da página até um determinado ponto, quando passa a ser fixo.  
-</p>
-            <div class="sticky ">
-            </div>
-            
-
-        </section>
-
+        
+        <nav class="titulo">
+            <h1>Propriedades Position e Display no CSS</h1>
+        </nav>
     </header>
 
+    <main>
+
+        <div class="elementos">
+            <div>
+            <h1> POSITION </h1>
+
+                <p> A propriedade position do CSS é um recurso que permite organizar os elementos HTML dentro de uma página. É esse recurso que possibilita, por exemplo, manter um menu ou um botão sempre visível em uma página, independentemente da posição da barra de rolagem.</p>
+            
+                <h2>Explicação dos valores da propriedade position:</h2>
+
+                <p> Static: A posição padrão de todos os elementos HTML é a static. Ela é utilizada quando não é necessário alterar o posicionamento do elemento, deixando que ele apareça na mesma ordem em que está inserido no código. </p>
+
+                <p> Relative: Ao utilizar o valor relative, é possível reposicionar o componente utilizando os padrões top, button, left e right, sem que esse elemento perca o seu espaço original no layout da página. Essa propriedade é muito usada para organizar movimentos sutis, e que não vão impactar nos demais itens da página.</p>
+
+                <p> Absolute: Um elemento com a configuração position: absolute não faz parte do fluxo normal da página, por isso, ele não tem um espaço próprio no layout e todas as outras estruturas se comportam como se ele não existisse.</p>
+
+                <p> Fixed: O valor fixed tem o objetivo de fixar um elemento em um ponto específico da página, permanecendo sempre da mesma forma, não sendo afetado pela barra de rolagem.  Além disso, ele também faz com que o item seja completamente removido do fluxo da página</p>
+            
+                <p> Sticky: Esse valor combina os comportamentos do relative e do fixed. Isso significa que o elemento com o position: sticky segue o fluxo da página até um determinado ponto, quando passa a ser fixo.  O uso do fixed é muito comum quando é necessário deixar um componente visível por um determinado período, como um menu lateral, por exemplo.</p>
+
+                <br> <br>
+
+                <h1> DISPLAY </h1>
+
+                 <div class="dblock">
+                    <p class="palavras"> Block: É uma propriedade CSS que faz com que um elemento HTML ocupe toda a largura disponível (100%), forçando uma quebra de linha antes e depois dele.</p>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>    
+
+                 <div class="blockflow">
+                     <p class="texto"> Block flow: Define que um elemento ocupe toda a largura disponível (100% do pai) e inicie em uma nova linha, gerando quebras antes e depois dele.</p>
+                 </div>
+
+                 <div class="blockflex">
+                    <p class="texto"> Block flex: Transforma um elemento em um contêiner flexível, organizando seus filhos automaticamente em linha ou coluna. </p> 
+                 </div>
+
+                  <div class="blockgrid">
+                        <p class="texto"> Block grid: é um sistema de layout bidimensional que organiza elementos em linhas e colunas simultaneamente.</p> 
+                 </div>
+
+                  <div class="Blockflow-root">
+                        <p class="texto"> Block flow-root: Cria uma caixa de bloco, mas, diferentemente do block comum, ele estabelece um novo contexto de formatação de bloco.</p> 
+                    </div>
+
+
+                 <div class="inline">
+                    <p class="texto"> Inline: Faz com elementos HTML fiquem um ao lado do outro na mesma linha, ocupando apenas a largura necessária para o seu conteúdo. </p>
+                </div>
+                
+                 <div class="inlineblock">
+                    <p class="texto"> Inline-block: O elemento gera uma caixa de elemento de bloco que fluirá com o conteúdo ao redor como se fosse uma única caixa em linha.</p>
+                 <h2>Exemplo</h2>
+                     <div class="inlineblock"></div>
+                     <div class="inlineblock"></div>
+                     <div class="inlineblock"></div>
+                </div>
+                  
+                <div class="inlineflex">
+                     <p class="texto"> Inline-flex: O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo flexbox.</p>
+                     <div class="quadrado"></div>
+                     <div class="quadrado"></div>
+                     <div class="quadrado"></div>
+                </div>
+                    
+                 <div class="inlinegrid">
+                        <p class="texto"> Inline grid: O elemento se comporta como um elemento inline e apresenta seu conteúdo de acordo com o modelo de grade.</p>
+                 </div>
+
+                 <div class="inlineflow-root">
+                        <p class="texto"> Inline flow-root: Funciona como um bloco na mesma linha, aceitando dimensões e margens normalmente. </p>
+                 </div>
+                    
+                <div class="inlinegrid2">
+                        <p class="texto"> Inline-grid: Define um elemento como um contêiner de grade (grid) que se comporta como um elemento inline externamente.</p>  
+                </div>
+                    
+                
+                <div class="table">
+                     <p class="texto"> Table: Esses elementos se comportam como elementos HTML table. Ele define uma caixa de nível de bloco.</p>   
+                 </div>
+
+                  <div class="flex">
+                     <p class="texto">Flex: Transforma um container HTML em um contêiner flexível, alinhando automaticamente seus elementos filhos em uma linha ou coluna.</p>
+                      <div class="quadrado"></div>
+                      <div class="quadrado"></div>
+                      <div class="quadrado"></div>
+                  </div>
+
+                  <div class="grid">
+                     <p class="texto"> Grid: Define um elemento como um contêiner de grade, permitindo organizar itens filhos em linhas e colunas estruturadas. </p>
+                      <div class="item"></div>
+                      <div class="item"></div>
+                      <div class="item"></div>
+                 </div>
+                 
+                  <div class="flow-root">
+                     <p class="texto"> Flow-root: O elemento gera uma caixa de elemento de bloco que estabelece um novo contexto de formatação de bloco, definindo onde está a raiz de formatação. </p>
+                      <div class="item"></div>
+                      <div class="item"></div>
+                 </div>      
+               
+            </div> 
+        
+        </div>
+        
+        </div>
+        
+       </div>
+
+    </main>
 </body>
+
 </html>
