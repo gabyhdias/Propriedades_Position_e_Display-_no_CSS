@@ -51,90 +51,79 @@ text-align: left;
 
 .inline{
     display: inline flow-root;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .flex{
     display: flex;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .inlineflex{
     display: inline-flex;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .inlineblock{
     display: inline-block;
-    background-color: rgb(201, 165, 182);
     margin: 10px;
     padding: 10px;
 }
 
 .grid{
     display: grid;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .inlinegrid{
     display: inline-grid;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .blockflow{
     display: flow-root;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .table{
     display: table;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .blockflex{
     display: block flex;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .blockgrid{
     display: block grid;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .blockflow-root{
     display: block flow-root;
-    background-color: rgb(201, 165, 182);
     margin: 10px;
+    padding: 10px;
+    background-color: rgb(196, 71, 129);
 }
 
 .inlineflex2{
     display: inline flex;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .inlinegrid2{
     display: inline grid;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
@@ -142,14 +131,12 @@ text-align: left;
 
 .inlineflow-root{
     display: inline flow-root;
-    background-color: rgb(201, 165, 182);
     padding: 10px;
     margin: 10px;
 }
 
 .flow-root{
     display: flow-root;
-    background-color: rgb(201, 165, 182);
     padding: 7px;
     margin: 7px;
 }
