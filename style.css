@@ -158,3 +158,12 @@ text-align: left;
     grid-template-columns: repeat(2, 40px);
     vertical-align: middle;
   }
+
+  .retangulo{
+    display: inline;
+    background-color: rgb(196, 71, 129);
+    width: 150px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+  }
